@@ -1,0 +1,350 @@
+body {
+  font-family: Poppins;
+}
+
+.hero-section {
+  background-color: #1D7BFF;
+  padding: 1rem 0;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+  }
+}
+
+.navbar-brand img {
+  width: 175px;
+}
+
+.navbar-toggler:focus
+{
+  box-shadow: none;
+}
+
+.signin-btn,
+.register-btn {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.signin-btn,
+.hero-div h1,
+.hero-div p {
+  color: #fff;
+}
+
+.register-btn {
+  padding: 10px 12px;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  color: #1D7BFF;
+}
+
+.register-btn:hover {
+  color: #1866d4;
+  background-color: #e9e6e6;
+}
+
+.hero-div .row {
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin: 4rem 0;
+}
+
+.hero-div h1 {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 87.77px;
+  text-align: center;
+}
+
+.hero-div p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
+}
+
+.hero-div button {
+  width: fit-content;
+}
+
+.hero-div img {
+  width: 90%;
+}
+
+/* easiest section */
+.easiest-way,
+.want-to-hear {
+  padding: 4rem 0;
+}
+
+.easiest-way .blue-line {
+  position: absolute;
+  right: 23.5%;
+  top: 47%;
+  width: 394px;
+  height: 19px;
+  opacity: 0.7;
+  border-radius: 25px 5px 25px 5px;
+  z-index: -1;
+  background-color: #1D7BFF;
+}
+
+.easiest-way .easiest-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .8rem;
+}
+
+.easiest-way h2,
+.want-to-hear h2,
+.easiest-way h3,
+.easiest-way p {
+  text-align: center;
+  color: #212121;
+
+}
+
+.easiest-way h2,
+.want-to-hear h2 {
+  font-size: 52px;
+  font-weight: 800;
+  line-height: 63.39px;
+}
+
+.easiest-way h3 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 48px;
+}
+
+.easiest-way p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+.hear-form {
+  padding: 25px;
+  border-radius: 24px;
+  border: 2px solid #F0F0F0;
+  width: 440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hear-form div {
+  width: 100%;
+}
+
+.hear-form h4 {
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 43.57px;
+  color: #2A2A2A;
+  margin-bottom: 1rem;
+}
+
+.hear-form .form-regist {
+  background: #1D7BFF;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 27px;
+  color: #fff;
+  width: 100%;
+}
+
+.hear-form .form-regist:hover {
+  background: #175fc3;
+  color: #d2d0d0;
+}
+
+.hear-form .btn.show {
+  background-color: transparent;
+}
+
+.landing-footer {
+  padding: 4rem 25px;
+  background-color: #1D7BFF;
+}
+
+.landing-footer img {
+  width: 175px;
+}
+
+/* styles.css */
+
+.intro {
+  background-color: #1d7bff;
+  color: #fff;
+  padding: 0 20px 20px;
+}
+
+.intro h2 {
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.intro p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.search-bar {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 600px;
+  margin: 30px auto 0 auto;
+}
+
+.search-bar img {
+  margin: 10px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 0 8px 8px 0;
+}
+
+.quick-tips {
+  background-color: #1d7bff;
+  color: #fff;
+}
+
+.basics, .quick-tips {
+  padding: 60px 20px;
+}
+
+.basics h2, .quick-tips h2 {
+  font-size: 48px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.videos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.video {
+  text-align: center;
+}
+
+.video video {
+  width: 377px;
+  height: 223px;
+  background-color: #e6e6e6;
+}
+
+.video p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.contact {
+  padding: 100px 20px;
+  background-color: #fff;
+}
+
+.contact h2 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.contact p {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 40px 0;
+}
+
+.contact button {
+  background-color: #1d7bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  .easiest-way .blue-line {
+    right: 13%;
+    top: 47%;
+    width: 180px;
+    height: 10px;
+  }
+
+  .hero-div h1 {
+    font-size: 26px;
+    line-height: initial;
+  }
+
+  .hero-div p,
+  .hear-form h4 {
+    font-size: 19px;
+  }
+
+  .signin-btn,
+  .register-btn,
+  .easiest-way p {
+    font-size: 14px;
+  }
+
+  .easiest-way h2,
+  .want-to-hear h2,
+  .easiest-way h3 {
+    font-size: 24px;
+  }
+
+  .hero-div .row {
+    gap: 1rem;
+    margin: 2rem 0;
+  }
+
+  .hear-form {
+    padding: 12.5px;
+    width: 90%;
+  }
+  .intro h2 {
+    font-size: 35px;
+  }
+  .search-bar {
+    width: 325px;
+  }
+  .basics h2, .quick-tips h2
+  {
+    font-size: 35px;
+  }
+  .contact {
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+}
+
+
+
